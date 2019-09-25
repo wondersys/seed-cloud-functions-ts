@@ -1,0 +1,29 @@
+{
+  "name": "seed-cloud-functions-ts",
+  "version": "1.0.0",
+  "description": "A seed for a project based on Google Cloud Functions, written in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/express": "^4.17.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^11.13.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.3.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^1.0.0",
+    "@google-cloud/storage": "^3.3.0",
+    "escape-html": "^1.0.3",
+    "express": "^4.17.1"
+  }
+}
