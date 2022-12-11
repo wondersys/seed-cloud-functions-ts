@@ -24,6 +24,6 @@
     "@google-cloud/pubsub": "^1.0.0",
     "@google-cloud/storage": "^3.3.0",
     "escape-html": "^1.0.3",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
